@@ -25,7 +25,7 @@ Qualquer usuário autenticado pode alterar a própria senha. Sem token, a API re
 
 ### Usuários iniciais (criados pela migration `V7`)
 
-| Login | Senha | Perfil |
+| Login | Senha | Perfil/Cargo |
 |-------|-------|--------|
 | admin@escola.com | 123456 | ADMINISTRATIVO |
 | coordenador@escola.com | 123456 | COORDENADOR |
