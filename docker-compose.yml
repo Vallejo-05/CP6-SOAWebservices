@@ -1,0 +1,10 @@
+# Sobe um MySQL local com as mesmas credenciais do application.properties
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: incident-management-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: fiap
+      MYSQL_DATABASE: incident_management
+    ports:
+      - "3306:3306"
